@@ -1,9 +1,9 @@
 {
   "type": "micro",
-  "wake_word": "Amy",
+  "wake_word": "Hey Amy",
   "author": "jilund",
   "website": "https://github.com/jilund",
-  "model": "https://raw.githubusercontent.com/jilund/microwakeword-custom/refs/heads/main/models/amy.tflite",
+  "model": "https://raw.githubusercontent.com/jilund/microwakeword-custom/refs/heads/main/models/hey_amy.tflite",
   "version": 2,
   "trained_languages": ["en"],
   "micro": {
