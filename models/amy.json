@@ -1,16 +1,18 @@
 {
   "type": "micro",
-  "wake_word": "Amy",
-  "author": "jilund",
-  "website": "https://github.com/jilund",
-  "model": "https://raw.githubusercontent.com/jilund/microwakeword-custom/refs/heads/main/models/amy.tflite",
+  "wake_word": "amy",
+  "author": "Tater Totterson",
+  "website": "https://github.com/TaterTotterson/microWakeWord-Trainer-Nvidia-Docker.git",
+  "model": "amy.tflite",
+  "trained_languages": [
+    "en"
+  ],
   "version": 2,
-  "trained_languages": ["en"],
   "micro": {
     "probability_cutoff": 0.97,
-    "feature_step_size": 10,
     "sliding_window_size": 5,
-    "tensor_arena_size": 26080,
+    "feature_step_size": 10,
+    "tensor_arena_size": 30000,
     "minimum_esphome_version": "2024.7.0"
   }
 }
